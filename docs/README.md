@@ -4,7 +4,29 @@
 
 | Documento | Contenido |
 |---|---|
-| [best-practice.md](governance/best-practice.md) | Idioma, notaciones (kebab-case, snake_case, camelCase, PascalCase) por capa, ramas y Conventional Commits del proyecto |
+| [best-practice.md](governance/best-practice.md) | Idioma, notaciones (`kebab-case`, `snake_case`, `camelCase`, `PascalCase`) por capa, ramas y Conventional Commits del proyecto |
+
+## prototype/
+
+| Documento | Contenido |
+|---|---|
+| [01-design-thinking.md](prototype/01-design-thinking.md) | Proceso de Design Thinking (Empatizar, Definir, Idear, Prototipar y Evaluar) con wireframes de las vistas MVC |
+
+## requirement/
+
+| Documento | Contenido |
+|---|---|
+| [01-role-responsibility.md](requirement/01-role-responsibility.md) | Definición y matriz de responsabilidades de los roles Administrador (`admin`) y Cliente (`user`) |
+| [02-functional-requirement.md](requirement/02-functional-requirement.md) | Especificación y listado de Requerimientos Funcionales (`RF-01` a `RF-24`) por módulo |
+| [03-non-functional-requirement.md](requirement/03-non-functional-requirement.md) | Especificación y listado de Requerimientos No Funcionales (`RNF-01` a `RNF-14`) |
+
+## agile/
+
+| Documento | Contenido |
+|---|---|
+| [01-user-story.md](agile/01-user-story.md) | Catálogo de Historias de Usuario (`HU-01` a `HU-12`) con criterios de aceptación |
+| [02-dor-dod.md](agile/02-dor-dod.md) | Criterios de calidad *Definition of Ready* (`DoR`) y *Definition of Done* (`DoD`) por capa MVC |
+| [03-moscow.md](agile/03-moscow.md) | Matriz de priorización *MoSCoW* (*Must*, *Should*, *Could*, *Won't*) vinculada con `HU`, `RF` y `RNF` |
 
 ## architecture/
 

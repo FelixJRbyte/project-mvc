@@ -38,7 +38,7 @@ Cada API expone: `GET` (listar) y `POST` (crear) en la ruta base; `GET`, `PUT` y
 | Servicio | Imagen | Puerto | Descripción |
 |---|---|---|---|
 | `app` | Se construye desde el `Dockerfile` del proyecto | 3000 | Servidor Next.js (vistas, API, controladores y modelos) |
-| `db` | `mysql:8.4` (oficial) | 3306 | Base de datos `project_mvc`. Al crearse por primera vez ejecuta los scripts de `public/docs/model-data/` |
+| `db` | `mysql:8.4` (oficial) | 3306 | Base de datos `project_mvc`. Al crearse por primera vez ejecuta los scripts de `docs/model-data/` |
 
 - **Un solo comando:** `docker compose up -d --build` levanta los dos servicios.
 - **Red interna:** la app se conecta a MySQL con el host `db` (el nombre del servicio), no con `localhost`.
@@ -56,7 +56,7 @@ project-mvc/
 └── .env.example          ← plantilla de variables (DB_HOST, DB_USER…)
 ```
 
-El script de la base de datos está en [`../model-data/01-schema.sql`](../model-data/01-schema.sql). El servicio `db` lo monta como `./public/docs/model-data:/docker-entrypoint-initdb.d:ro`.
+El script de la base de datos está en [`../model-data/01-schema.sql`](../model-data/01-schema.sql). El servicio `db` lo monta como `./docs/model-data:/docker-entrypoint-initdb.d:ro`.
 
 ## Decisiones pendientes
 

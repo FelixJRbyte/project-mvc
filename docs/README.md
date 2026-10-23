@@ -21,7 +21,7 @@ Las fuentes de los diagramas están en `architecture/diagrams/*.puml` (PlantUML)
 Para regenerar los SVG después de editar un `.puml` (requiere Java y el [jar de PlantUML](https://github.com/plantuml/plantuml/releases)):
 
 ```bash
-cd public/docs/architecture/diagrams
+cd docs/architecture/diagrams
 java -jar plantuml.jar -tsvg -charset UTF-8 [0-9]*.puml
 ```
 
@@ -34,7 +34,7 @@ java -jar plantuml.jar -tsvg -charset UTF-8 [0-9]*.puml
 Ejecutarlo contra MySQL:
 
 ```bash
-mysql -u root -p < public/docs/model-data/01-schema.sql
+mysql -u root -p < docs/model-data/01-schema.sql
 ```
 
 El script borra y vuelve a crear las tablas: no se debe ejecutar sobre una base que ya tenga datos.

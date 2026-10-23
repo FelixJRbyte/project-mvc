@@ -14,7 +14,7 @@ Aplicación web full-stack construida con **Next.js (App Router) + React** y **M
 
 ```text
 project-mvc/
-├── docs/                   # Documentación de gobernanza, arquitectura y scripts SQL
+├── docs/                   # Documentación de gobernanza, prototipo, requerimientos, ágil, arquitectura y SQL
 ├── public/                 # Archivos estáticos públicos
 ├── src/
 │   ├── app/                # Rutas de páginas (page.jsx) y endpoints API (route.js)
@@ -61,7 +61,15 @@ project-mvc/
 
 ## Documentación y Gobernanza
 
+- [Índice general de documentación](docs/README.md)
 - [Buenas prácticas y convenciones (best-practice.md)](docs/governance/best-practice.md)
+- [Design Thinking y prototipado](docs/prototype/01-design-thinking.md)
+- [Roles y responsabilidades (`admin` y `user`)](docs/requirement/01-role-responsibility.md)
+- [Requerimientos funcionales (`RF-01` a `RF-24`)](docs/requirement/02-functional-requirement.md)
+- [Requerimientos no funcionales (`RNF-01` a `RNF-14`)](docs/requirement/03-non-functional-requirement.md)
+- [Historias de usuario (`HU-01` a `HU-12`)](docs/agile/01-user-story.md)
+- [Definition of Ready (`DoR`) y Definition of Done (`DoD`)](docs/agile/02-dor-dod.md)
+- [Matriz de priorización MoSCoW](docs/agile/03-moscow.md)
 - [Arquitectura de alto nivel](docs/architecture/01-architecture.md)
 - [Modelo relacional](docs/architecture/02-relational-model.md)
 - [Diagrama de clases](docs/architecture/03-class-diagram.md)
